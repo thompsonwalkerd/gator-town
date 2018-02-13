@@ -1,0 +1,41 @@
+
+body{
+	margin: 0px;
+}
+
+
+#navbar {
+	padding: 0px;
+	background-color: #282829;
+	font-size: 4vw;
+}
+
+a {
+	padding-left: 3.25vw;
+	padding-right: 3.25vw;
+	text-decoration: none;
+	color: #f9f9f9;
+	font-family: Copperplate Gothic Bold;
+}
+
+a:hover {
+	background-color: black;
+}
+
+.responsive1 { /* responsive for deca logo */
+    float: left;
+	display: block;
+    width: 25%;
+}
+
+.responsive2 { /* responsive for gator town logo */
+    
+    width: 50%;
+}
+
+.responsive3 { /* responsive for deca logo */
+    float: right;
+	display: block;
+    width: 25%;
+	padding-top: 7px;
+}
