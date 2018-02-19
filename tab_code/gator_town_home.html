@@ -1,0 +1,62 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="gator_town_style.css">
+<body background="E:\web_design\gator_town\images\gator_town_bg.jpg">
+<title>Home</title>
+
+</head>
+
+<img src="E:\web_design\gator_town\images\deca_logo.png" alt="deca" class="responsive1">
+<img src="E:\web_design\gator_town\images\gator_town_logo.png" alt="banner" class="responsive2" align="middle">
+<img src="E:\web_design\gator_town\images\email_logo.png" alt="email" class="responsive3">
+
+<div id="navbar">
+	 <center>
+	 <a href="gator_town_home.html">Home</a>
+     <a href="gator_town_store.html">Store</a>
+	 <a href="gator_town_aboutus.html">About Us</a>
+	 <a href="gator_town_charity.html">Charity</a>
+	 </center>
+</div> 
+
+
+<center>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="slideshow">
+ 
+ <img class="mySlides" src="E:\web_design\gator_town\images\gator_town_img1.jpg" style="width:40%" border="2vw">
+ 
+ <img class="mySlides" src="E:\web_design\gator_town\images\gator_town_img2.jpg" style="width:40%" border="2vw">
+ 
+ <img class="mySlides" src="E:\web_design\gator_town\images\gator_town_img3.jpg" style="width:40%" border="2vw">
+ 
+ <img class="mySlides" src="E:\web_design\gator_town\images\gator_town_img4.jpg" style="width:40%" border="2vw">
+ 
+ <img class="mySlides" src="E:\web_design\gator_town\images\gator_town_img5.jpg" style="width:40%" border="2vw">
+  
+</div>
+
+</center>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
