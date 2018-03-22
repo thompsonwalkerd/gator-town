@@ -2,23 +2,36 @@
 
 <head>
 
-<link rel="stylesheet" href="gator_town_style.css">
+<link rel="stylesheet" media="screen and (min-width: 481px)" href="gator_town_style_big.css">
+<link rel="stylesheet" media="screen and (max-width: 480px)" href="gator_town_style_small.css">
 <body background="..\images\gator_town_bg.jpg">
 <title>Home</title>
 
 </head>
-
-<img src="..\images\deca_logo.png" alt="deca" class="responsive1">
 <img src="..\images\gator_town_logo.png" alt="banner" class="responsive2" align="middle">
+<img src="..\images\deca_logo.png" alt="deca" class="responsive1">
 <img src="..\images\email_logo.png" alt="email" class="responsive3">
 
+
+<!-- nav bar for screens >480px -->
 <div id="navbar">
 	 <center>
 	 <a href="gator_town_home.html">Home</a>
      <a href="gator_town_store.html">Store</a>
 	 <a href="gator_town_about_us.html">About Us</a>
-	 <a href="gator_town_charity.html">Charity</a>
+	 <a href="gator_town_new_arrivals.html">New Arrivals</a>
 	 </center>
+</div> 
+
+
+<!-- nav bar for screens <480px -->
+<div class="mobile_navbar">
+	 
+	 <a href="gator_town_home.html">Home</a>
+     <a href="gator_town_store.html">Store</a>
+	 <a href="gator_town_about_us.html">About Us</a>
+	 <a href="gator_town_new_arrivals.html">New Arrivals</a>
+	 
 </div> 
 
 
@@ -57,6 +70,26 @@ function carousel() {
     setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 </script>
+
+<center>
+
+<img class="mobile_img" src="..\images\gator_town_img1.jpg" border="2vw">
+</br>
+</br>
+<img class="mobile_img" src="..\images\gator_town_img2.jpg" border="2vw">
+</br>
+</br>
+<img class="mobile_img" src="..\images\gator_town_img3.jpg" border="2vw">
+</br>
+</br>
+<img class="mobile_img" src="..\images\gator_town_img4.jpg" border="2vw">
+</br>
+</br>
+<img class="mobile_img" src="..\images\gator_town_img5.jpg" border="2vw">
+</br>
+</br>
+
+</center>
 
 </body>
 </html>

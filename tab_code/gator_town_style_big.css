@@ -1,0 +1,113 @@
+
+/* "display: none;" ---> DELETES CODE FROM LARGER SCREENS */
+
+body{
+	margin: 0px;
+}
+
+p {
+	color: white;
+	font-family: Copperplate Gothic Bold;
+	font-size: 2vw;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#what-is-gator-town {
+	float: left;
+	width: 40%;
+	padding-left: 5%;
+}
+
+#history {
+	float: right;
+	width: 40%;
+	padding-right: 5%;
+}
+
+#navbar {
+	padding: 0px;
+	background-color: #282829;
+	font-size: 4vw;
+}
+
+#navbar a {
+	padding-left: 2vw;
+	padding-right: 2vw;
+	text-decoration: none;
+	color: #f9f9f9;
+	font-family: Copperplate Gothic Bold; 
+	
+}
+
+#navbar a:hover {
+	background-color: black;
+}
+
+.responsive1 { /* responsive for deca logo */
+    float: left;
+	display: block;
+    width: 25%;
+}
+
+.responsive2 { /* responsive for gator town logo */
+    
+    width: 50%;
+}
+
+.responsive3 { /* responsive for deca logo */
+    float: right;
+	display: block;
+    width: 25%;
+}
+
+.slideshow {
+	padding: 2vw;
+}
+
+.mySlides {
+	border-color: #E6D395;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+h1 {
+	font-family: Copperplate Gothic Bold;
+	font-size: 5vw;
+	color: white;
+}
+
+h2 {
+	font-family: Copperplate Gothic Bold;
+	font-size: 4vw;
+	color: white;
+}
+
+h3 {
+	font-family: Copperplate Gothic Bold;
+	font-size: 2vw;
+	color: white;
+}
+
+.about-heading {
+	font-size: 3vw;
+}
+
+.mobile_img {
+	display: none;
+}
+
+.mobile_navbar {
+	display: none;
+}
